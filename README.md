@@ -1,4 +1,4 @@
-# techno-cursos
+# Techno-cursos
 
 ## Project setup
 ```
@@ -25,5 +25,24 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Screenshots
+### Página Inicial da Techno Cursos
+<img src="assets/screenshots/home.png">
+
+### Cursos disponíveis
+<img src="assets/screenshots/cursos.png">
+
+### Página do Curso
+<img src="assets/screenshots/curso_page.png">
+
+### Página de Contatos
+<img src="assets/screenshots/contato.png">
+
+Os dados são disponibilizados pela fake api json: https://github.com/typicode/json-server que consome os dados do arquivo api.json disponibilizado no projeto.
+
+### Inicialização da API
+```
+json-server --watch api.json
+```
+
+Curso de Vuejs da www.origamid.com
